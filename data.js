@@ -1,7 +1,16 @@
 import amogh from "./src/assets/testimonials/amogh.png";
 import shivam from "./src/assets/testimonials/shivam.jpeg";
 import rajat from "./src/assets/testimonials/rajat.jpeg";
-
+import socialMedia from "./src/assets/projects/webApp/social.jpg";
+import photoPortfolio from "./src/assets/projects/webApp/photography.png";
+import landingPage from "./src/assets/projects/webApp/landing.png";
+import quiz from "./src/assets/projects/webApp/quiz.png";
+import stock from "./src/assets/svg/python.svg";
+import rename from "./src/assets/projects/python/Rename.png";
+import pomodoro from "./src/assets/projects/python/Pomodoro.png";
+import passwordManager from "./src/assets/projects/python/PasswordManager.png";
+import milesToKm from "./src/assets/projects/python/milesToKm.png";
+import python from "./src/assets/svg/python.svg";
 export const menu = [
   {
     id: 1,
@@ -121,7 +130,7 @@ export const project = [
           "A complete simulation of a social media application that involves the user to interact with the UI  ",
         stack: "React, MaterialUI, Formik, Yup, MERN",
         status: "in development",
-        image: "./src/assets/projects/webApp/social.jpg",
+        image: socialMedia,
         git: "https://github.com/Tanmay-Codes/Social-Media-UI",
         live: "https://tanmay-codes.github.io/SoclcialMedia-Demo/",
       },
@@ -132,7 +141,7 @@ export const project = [
           "Website for a local photography firm in Uttar Pradesh, showcasing their high end photography skills and services.",
         stack: "HTML5, CSS3, vanilla JavaScript",
         status: "Completed",
-        image: "./src/assets/projects/webApp/photography.png",
+        image: photoPortfolio,
         git: "#",
         live: "https://www.arrtphotos.com/",
       },
@@ -143,7 +152,7 @@ export const project = [
           "A complete Single Page Application, displaying all essential branding and content of a BIM modeling company ",
         stack: "React, HTML5, CSS3",
         status: "Completed",
-        image: "./src/assets/projects/webApp/landing.png",
+        image: landingPage,
         git: "https://github.com/Tanmay-Codes/designendeavour",
         live: "#",
       },
@@ -154,7 +163,7 @@ export const project = [
           "This is an Ultimate Quiz Trivia app, Develop as a part of my JavaScript learning journey",
         stack: "HTML5, CSS3, JavaScript, REST API, DOM Manipulation",
         status: "Completed",
-        image: "./src/assets/projects/webApp/quiz.png",
+        image: quiz,
         git: "https://github.com/Tanmay-Codes/Ultimate-Quiz-JS",
         live: "https://tanmay-codes.github.io/Ultimate-Quiz-JS/",
       },
@@ -173,7 +182,7 @@ export const project = [
           "An app that helps evaluating entry and exit points for the list of stocks based on the backtesting of the SMA strategy.",
         stack: "Python, Pandas, Yfinance, NSE",
         status: "Completed",
-        image: "./src/assets/svg/python.svg",
+        image: stock,
         git: "https://github.com/Tanmay-Codes/PythonProjects/tree/master/My_Projects/SMA_TradingStrategy",
       },
       {
@@ -183,7 +192,7 @@ export const project = [
           "A complete GUI based installer app. This was developed as a part of project to be used inside the company and the installer file was created for easy distribution",
         stack: "Python, Tkinter, ",
         status: "Completed",
-        image: "./src/assets/projects/python/Rename.png",
+        image: rename,
         git: "https://github.com/Tanmay-Codes/RenameProject",
       },
       {
@@ -193,7 +202,7 @@ export const project = [
           "An app that helps incorporating simple pomodoro study focus technique, where work time is of 25 mins and 5 mins of break",
         stack: "Python, Tkinter",
         status: "Completed",
-        image: "./src/assets/projects/python/Pomodoro.png",
+        image: pomodoro,
         git: "https://github.com/Tanmay-Codes/PythonProjects/tree/master/Tkinter_projects/pomodoro-start",
       },
       {
@@ -203,7 +212,7 @@ export const project = [
           "A simple password manager app, that generates secure password for your website and log it to the text file that you can keep someplace safe to fetch your password later",
         stack: "Python, Tkinter",
         status: "Completed",
-        image: "./src/assets/projects/python/PasswordManager.png",
+        image: passwordManager,
         git: "https://github.com/Tanmay-Codes/PythonProjects/tree/master/Tkinter_projects/password-manager-start",
       },
       {
@@ -213,7 +222,7 @@ export const project = [
           "A simple GUI based Convertor that takes user inputs in Miles and converts it into KM.",
         stack: "Python, Tkinter",
         status: "Completed",
-        image: "./src/assets/projects/python/milesToKm.png",
+        image: milesToKm,
         git: "https://github.com/Tanmay-Codes/PythonProjects/tree/master/Tkinter_projects/Miles%20to%20KM%20converter",
         live: "",
       },
@@ -224,7 +233,7 @@ export const project = [
           "A simple weather API representing if you need to carry your umbrella or not!",
         stack: "Python, Request module, open weather map api",
         status: "Completed",
-        image: "./src/assets/svg/python.svg",
+        image: python,
         git: "https://github.com/Tanmay-Codes/PythonProjects/tree/master/WeatherAPIproject",
         live: "",
       },
@@ -235,7 +244,7 @@ export const project = [
           "A simple Trivia quiz, a learning project to incorporate OOP concepts of Python and develop a quiz program",
         stack: "Python, Request, opentdb.com trivia api",
         status: "Completed",
-        image: "./src/assets/svg/python.svg",
+        image: python,
         git: "https://github.com/Tanmay-Codes/PythonProjects/tree/master/My_Projects/Trivia_Quiz",
       },
     ],

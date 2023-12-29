@@ -23,8 +23,8 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        hero: "url('./src/assets/pfbg1.png')",
-        section: "url('./src/assets/section.png')",
+        hero: "url('/hero.png')",
+        section: "url('/section.png')",
       },
       colors: {
         border: "hsl(var(--border))",
