@@ -45,7 +45,7 @@ function ContactSection() {
     <div id="Contact" className="h-auto md:h-full pb-32 bg-section bg-fixed">
       <div className="container pt-32">
         <Slide left>
-          <h1 className="text-5xl flex-col  text-primary-foreground font-bold text-center ">
+          <h1 className="text-3xl md:text-5xl flex-col  text-primary-foreground font-bold text-center ">
             <span className="border-b-4 border-primary">Con</span>tact Me
           </h1>
         </Slide>

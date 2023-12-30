@@ -7,7 +7,7 @@ function ProjectSection() {
     <div id="Projects" className="h-auto pb-32 bg-section bg-fixed">
       <div className="container pt-32">
         <Zoom right>
-          <h1 className="text-5xl flex-col  text-primary-foreground font-bold text-center ">
+          <h1 className="text-3xl  md:text-5xl flex-col  text-primary-foreground font-bold text-center ">
             <span className="border-b-4 border-primary">Pro</span>jects
           </h1>
         </Zoom>

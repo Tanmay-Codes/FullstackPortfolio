@@ -33,7 +33,7 @@ function AboutSection() {
     <div id="About" className="h-auto pb-32 bg-background">
       <div className="container pt-32">
         <Zoom>
-          <h1 className="text-5xl flex-col  text-primary-foreground font-bold text-center ">
+          <h1 className="text-3xl md:text-5xl flex-col  text-primary-foreground font-bold text-center ">
             <span className="border-b-4 border-primary">Abo</span>ut Me
           </h1>
         </Zoom>
@@ -54,13 +54,13 @@ function AboutSection() {
                   {about.map((item) => (
                     <Accordion key={item.id} type="single" collapsible>
                       <AccordionItem value={`item-${item.id}`}>
-                        <AccordionTrigger className="text-lg hover:text-primary">
+                        <AccordionTrigger className=" text-md md:text-lg hover:text-primary">
                           <p className="flex items-center space-x-2">
                             {icons[item.id - 1].icon}
                             <span>{item.title}</span>
                           </p>
                         </AccordionTrigger>
-                        <AccordionContent className="text-lg">
+                        <AccordionContent className="text-sm md:text-lg">
                           {item.work?.map((job) => (
                             <ul key={job.id}>
                               <li className="p-2">
@@ -87,7 +87,7 @@ function AboutSection() {
           </div>
         </div>
       </div>
-      <p className="mt-20 flex justify-center text-center text-2xl text-primary-foreground">
+      <p className="mt-20 flex justify-center text-center md:text-2xl text-primary-foreground">
         <Bounce cascade right>
           <FaQuoteLeft className="text-primary mr-2" />
           My lifes algorithm - Do great things in life, while not dead!

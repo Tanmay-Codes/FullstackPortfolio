@@ -13,12 +13,12 @@ function Hero() {
       className="container  m-auto p-5 h-full flex flex-col justify-center "
     >
       <Zoom>
-        <span className="text-primary text-3xl mb-2">
+        <span className="text-primary md:text-3xl mb-2">
           <Bounce bottom cascade>
             Hello, I am a..
           </Bounce>{" "}
         </span>
-        <h1 className="text-7xl text-accent font-serif font-bold">
+        <h1 className="text-2xl md:text-7xl text-accent font-serif font-bold">
           <RandomReveal
             isPlaying
             duration={5}
@@ -28,7 +28,7 @@ function Hero() {
           />
         </h1>
         <Slide>
-          <p className="text-accent mt-4 text-2xl  ">
+          <p className="text-accent mt-4 text-m md:text-2xl  ">
             I am Expert in{" "}
             <span className="inline-block w-auto text-primary w-100">
               {
@@ -60,7 +60,7 @@ function Hero() {
             smooth={true}
             duration={500}
           >
-            <Button className="rounded-full bg-primary text-black font-bold text-xl ">
+            <Button className="rounded-full bg-primary text-black font-bold md:text-xl ">
               Hire ME!
             </Button>
           </Link>
@@ -72,7 +72,7 @@ function Hero() {
           >
             <Button
               variant="outline"
-              className="rounded-full border-spacing-1 text-accent text-xl"
+              className="rounded-full border-spacing-1 text-accent md:text-xl"
             >
               Download Resume
             </Button>

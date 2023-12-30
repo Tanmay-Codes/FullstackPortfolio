@@ -18,7 +18,7 @@ function TestimonialSection() {
     <div id="Testimonials" className=" h-auto md:h-full pb-40 bg-background">
       <div className="container pt-32">
         <Zoom>
-          <h1 className="text-5xl flex-col  text-primary-foreground font-bold text-center ">
+          <h1 className="text-3xl md:text-5xl flex-col  text-primary-foreground font-bold text-center ">
             <span className="border-b-4 border-primary">Test</span>imonials
           </h1>
         </Zoom>
@@ -39,14 +39,16 @@ function TestimonialSection() {
                         </AvatarFallback>
                       </Avatar>
                       <div className="mt-3">
-                        <p className="text-2xl font-bold">{item.name}</p>
-                        <p className="text-md text-primary italic">
+                        <p className="text-lg md:text-2xl font-bold">
+                          {item.name}
+                        </p>
+                        <p className="text-sm md:text-md text-primary italic">
                           {item.designation}
                         </p>
                         <p className="text-md text-primary italic">
                           {item.company}
                         </p>
-                        <blockquote className="flex max-w-[800px] text-xl mt-3">
+                        <blockquote className="flex max-w-[800px] md:text-xl mt-3">
                           <FaQuoteLeft className="text-primary mr-2" />
                           {item.quote}
                           <FaQuoteRight className="text-primary ml-1" />
