@@ -6,6 +6,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { FaGithub } from "react-icons/fa";
 import { FaChrome } from "react-icons/fa";
 function ProjectCard(props) {
@@ -21,12 +22,23 @@ function ProjectCard(props) {
             {item.title}
           </p>
           <div className="md:flex   space-x-4">
-            <div className="flex-col w-[150px] items-center justify-center">
-              <img
-                className="w-[150px] inline-block h-[100px]"
-                src={item.image}
-                alt="project image"
-              />
+            <div className="flex-col  items-center justify-center">
+              <Dialog>
+                <DialogTrigger>
+                  <img
+                    className="w-[150px] inline-block h-[100px]"
+                    src={item.image}
+                    alt="project image"
+                  />
+                </DialogTrigger>
+                <DialogContent>
+                  <img
+                    className="w-auto inline-block h-auto"
+                    src={item.image}
+                    alt="project image"
+                  />
+                </DialogContent>
+              </Dialog>
               <div className="flex gap-2 justify-center items-center mt-2">
                 <a
                   className="cursor-pointer"

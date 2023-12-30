@@ -11,6 +11,12 @@ import pomodoro from "./src/assets/projects/python/Pomodoro.png";
 import passwordManager from "./src/assets/projects/python/PasswordManager.png";
 import milesToKm from "./src/assets/projects/python/milesToKm.png";
 import python from "./src/assets/svg/python.svg";
+import jamclef from "./src/assets/jamclefLogo.png";
+import sampleCar from "./src/assets/CAD/sampleCar.jpg";
+import plane from "./src/assets/CAD/Night Wing v24.png";
+import charger from "./src/assets/CAD/charger.png";
+import AcCharger from "./src/assets/CAD/AC-charger.png";
+import casing from "./src/assets/CAD/Casing.png";
 export const menu = [
   {
     id: 1,
@@ -154,7 +160,7 @@ export const project = [
         status: "Completed",
         image: landingPage,
         git: "https://github.com/Tanmay-Codes/designendeavour",
-        live: "#",
+        live: "https://designendeavour.vercel.app/",
       },
       {
         id: 4,
@@ -250,40 +256,79 @@ export const project = [
     ],
   },
   {
-    id: 4,
+    id: 3,
     cardTitle: "SaaS",
     cardDescription:
       "Collection of all my work in developing web-apps, during my journey from 2019 - present",
     projects: [
       {
         id: 1,
-        title: "Social Media App",
+        title: "JamClef",
         description:
-          "A complete simulation of a social media application that involves the user to interact with the UI  ",
+          "Musicians community to offer services that helps musicians grow in skills and network thoroughout the globe. ",
         stack: "React, MaterialUI, Formik, Yup, MERN",
         status: "in development",
-        image: "./src/assets/projects/webApp/social.jpg",
+        image: jamclef,
         git: "#",
-        live: "#",
+        live: "https://www.jamclef.com/",
       },
     ],
   },
   {
-    id: 3,
+    id: 4,
     cardTitle: "CAD",
     cardDescription:
-      "Collection of all my work in developing web-apps, during my journey from 2019 - present",
+      "Collection of all my CAD works from in my professional and learning journey from 2012 to present",
     projects: [
       {
         id: 1,
-        title: "Social Media App",
+        title: "Futuristic hybrid vehicle concept",
         description:
-          "A complete simulation of a social media application that involves the user to interact with the UI  ",
-        stack: "React, MaterialUI, Formik, Yup, MERN",
-        status: "in development",
-        image: "./src/assets/projects/webApp/social.jpg",
-        git: "#",
-        live: "#",
+          "An exterior design of a hydrogenEngine + fuelcell car visualized as the part of a near future ",
+        stack: "Fusion 360",
+        status: "completed",
+        image: sampleCar,
+        git: "https://github.com/Tanmay-Codes/CAD-works/tree/main/concept%20car",
+      },
+      {
+        id: 2,
+        title: "Fast Charging Station",
+        description:
+          "An exterior design and product concept for my startup, Presenting the fast charging station, electric charger with capacity to charge two vehicle at once, with a big multimedia screen incorporating all the digital informations and as well capacity to accept payments in all modes ",
+        stack: "Fusion 360",
+        status: "completed",
+        image: charger,
+        git: "https://github.com/Tanmay-Codes/CAD-works/tree/main/DC%20charger",
+      },
+      {
+        id: 3,
+        title: "A conceptual aero transporter",
+        description:
+          "An attempt to 3D design the concept of highly aerodynamic air vehicle with high efficency in stealth and combact",
+        stack: "Fusion 360",
+        status: "completed",
+        image: plane,
+        git: "https://github.com/Tanmay-Codes/CAD-works/tree/main/concept%20plane",
+      },
+      {
+        id: 4,
+        title: "AC charger with 3 ports.",
+        description:
+          " A design part for a self startup to develop, manufacture and sell EV chargers across the fast growing industry",
+        stack: "Fusion 360",
+        status: "completed",
+        image: AcCharger,
+        git: "https://github.com/Tanmay-Codes/CAD-works/tree/main/chaarger",
+      },
+      {
+        id: 5,
+        title: "Sheet Metal Casing for a product",
+        description:
+          " A design part of a automatic flow controller for homes, Sheet metal casing with manufacturing specification and space for Electronics",
+        stack: "Fusion 360",
+        status: "completed",
+        image: casing,
+        git: "https://github.com/Tanmay-Codes/CAD-works",
       },
     ],
   },
